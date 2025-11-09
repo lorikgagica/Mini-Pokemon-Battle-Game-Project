@@ -33,7 +33,16 @@ pokemon_list = [
     Pokemon("Squirtle", "Water", 44, 48, 65, ["Tackle", "Water Gun"]),
     Pokemon("Bulbasaur", "Grass", 45, 49, 49, ["Vine Whip", "Tackle"]),
     Pokemon("Pikachu", "Electric", 35, 55, 40, ["Thunder Shock", "Quick Attack"]),
-    Pokemon("Eevee", "Normal", 55, 55, 50, ["Tackle", "Bite"])
+    Pokemon("Eevee", "Normal", 55, 55, 50, ["Tackle", "Bite"]),
+    Pokemon("Jigglypuff", "Fairy", 115, 45, 20, ["Sing", "Pound"]),
+    Pokemon("Meowth", "Normal", 40, 45, 35, ["Scratch", "Bite"]),
+    Pokemon("Machop", "Fighting", 70, 80, 50, ["Karate Chop", "Low Kick"]),
+    Pokemon("Magnemite", "Electric", 25, 35, 70, ["Thunder Shock", "Tackle"]),
+    Pokemon("Gastly", "Ghost", 30, 35, 30, ["Lick", "Night Shade"]),
+    Pokemon("Ponyta", "Fire", 50, 85, 55, ["Ember", "Stomp"]),
+    Pokemon("Poliwag", "Water", 40, 50, 40, ["Bubble", "Hypnosis"]),
+    Pokemon("Abra", "Psychic", 25, 20, 15, ["Teleport", "Confusion"]),
+    Pokemon("Geodude", "Rock", 40, 80, 100, ["Tackle", "Rock Throw"])
 ]
 
 # Function to calculate damage
