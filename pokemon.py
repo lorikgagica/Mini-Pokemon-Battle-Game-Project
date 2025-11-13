@@ -107,7 +107,8 @@ pokemon_list = [
     Pokemon("Ponyta", "Fire", 50, 85, 55, ["Ember", "Stomp"]),
     Pokemon("Poliwag", "Water", 40, 50, 40, ["Bubble", "Hypnosis"]),
     Pokemon("Abra", "Psychic", 25, 20, 15, ["Psyko", "Confusion"]),
-    Pokemon("Geodude", "Rock", 40, 80, 100, ["Tackle", "Rock Throw"])
+    Pokemon("Geodude", "Rock", 40, 80, 100, ["Tackle", "Rock Throw"]),
+    Pokemon("Pichu", "Electric", 25, 35, 25, ["Thunder", "Bite"])
 ]
 
 # Function to calculate damage
