@@ -1,6 +1,11 @@
+import json
 import tkinter as tk
 import random
 
+# ----------- Load type effectiveness from JSON -----------
+with open("type_effectiveness.json") as f:
+    type_chart = {tuple(k.split(",")): v for k, v in json.load(f).items()}
+    
 # Define the Pokemon class
 class Pokemon:
     def __init__(self, name, p_type, hp, attack, defense, moves):
@@ -15,101 +20,15 @@ class Pokemon:
     def __str__(self):
         return f"{self.name} ({self.type})"
 
-# Type effectiveness dictionary (simplified)
-type_chart = {
-    ("Fire", "Grass"): 2.0,
-    ("Fire", "Water"): 0.5,
-    ("Fire", "Rock"): 0.5,
-    ("Fire", "Fairy"): 1.0,
-    ("Fire", "Ghost"): 1.0,
-    ("Fire", "Psychic"): 1.0,
-    ("Fire", "Normal"): 1.0,
-    ("Fire", "Electric"): 1.0,
-    ("Fire", "Fighting"): 1.0,
-    ("Fire", "Fire"): 0.5,
-
-    ("Water", "Fire"): 2.0,
-    ("Water", "Grass"): 0.5,
-    ("Water", "Rock"): 2.0,
-    ("Water", "Electric"): 0.5,
-    ("Water", "Water"): 0.5,
-
-    ("Grass", "Water"): 2.0,
-    ("Grass", "Fire"): 0.5,
-    ("Grass", "Rock"): 2.0,
-    ("Grass", "Electric"): 1.0,
-    ("Grass", "Grass"): 0.5,
-    ("Grass", "Fairy"): 1.0,
-    ("Grass", "Ghost"): 1.0,
-    ("Grass", "Psychic"): 1.0,
-    ("Grass", "Normal"): 1.0,
-    ("Grass", "Fighting"): 1.0,
-
-    ("Electric", "Water"): 2.0,
-    ("Electric", "Grass"): 0.5,
-    ("Electric", "Electric"): 0.5,
-    ("Electric", "Rock"): 1.0,
-    ("Electric", "Fairy"): 1.0,
-    ("Electric", "Ghost"): 1.0,
-    ("Electric", "Psychic"): 1.0,
-    ("Electric", "Normal"): 1.0,
-    ("Electric", "Fighting"): 1.0,
-
-    ("Fairy", "Fighting"): 2.0,
-    ("Fairy", "Dragon"): 2.0,
-    ("Fairy", "Dark"): 2.0,
-    ("Fairy", "Fire"): 0.5,
-    ("Fairy", "Poison"): 0.5,
-    ("Fairy", "Steel"): 0.5,
-
-    ("Fighting", "Normal"): 2.0,
-    ("Fighting", "Rock"): 2.0,
-    ("Fighting", "Steel"): 2.0,
-    ("Fighting", "Dark"): 2.0,
-    ("Fighting", "Ice"): 2.0,
-    ("Fighting", "Fairy"): 0.5,
-    ("Fighting", "Psychic"): 0.5,
-    ("Fighting", "Ghost"): 0.0,
-
-    ("Ghost", "Ghost"): 2.0,
-    ("Ghost", "Psychic"): 2.0,
-    ("Ghost", "Dark"): 0.5,
-    ("Ghost", "Normal"): 0.0,
-
-    ("Rock", "Fire"): 2.0,
-    ("Rock", "Ice"): 2.0,
-    ("Rock", "Flying"): 2.0,
-    ("Rock", "Bug"): 2.0,
-    ("Rock", "Fighting"): 0.5,
-    ("Rock", "Ground"): 0.5,
-    ("Rock", "Steel"): 0.5,
-
-    ("Psychic", "Fighting"): 2.0,
-    ("Psychic", "Poison"): 2.0,
-    ("Psychic", "Psychic"): 0.5,
-    ("Psychic", "Steel"): 0.5,
-    ("Psychic", "Dark"): 0.0,
-}
-# For all other pairs not listed, the default is 1.0 (neutral)
-
-# List of Pokemon choices
-pokemon_list = [
-    Pokemon("Charmander", "Fire", 39, 52, 43, ["Ember", "Scratch"]),
-    Pokemon("Squirtle", "Water", 44, 48, 65, ["Tackle", "Water Gun"]),
-    Pokemon("Bulbasaur", "Grass", 45, 49, 49, ["Vine Whip", "Tackle"]),
-    Pokemon("Pikachu", "Electric", 35, 55, 40, ["Thunder Shock", "Quick Attack"]),
-    Pokemon("Eevee", "Normal", 55, 55, 50, ["Tackle", "Bite"]),
-    Pokemon("Jigglypuff", "Fairy", 115, 45, 20, ["Sing", "Pound"]),
-    Pokemon("Meowth", "Normal", 40, 45, 35, ["Scratch", "Bite"]),
-    Pokemon("Machop", "Fighting", 70, 80, 50, ["Karate Chop", "Low Kick"]),
-    Pokemon("Magnemite", "Electric", 25, 35, 70, ["Thunder Shock", "Tackle"]),
-    Pokemon("Gastly", "Ghost", 30, 35, 30, ["Lick", "Night Shade"]),
-    Pokemon("Ponyta", "Fire", 50, 85, 55, ["Ember", "Stomp"]),
-    Pokemon("Poliwag", "Water", 40, 50, 40, ["Bubble", "Hypnosis"]),
-    Pokemon("Abra", "Psychic", 25, 20, 15, ["Psyko", "Confusion"]),
-    Pokemon("Geodude", "Rock", 40, 80, 100, ["Tackle", "Rock Throw"]),
-    Pokemon("Pichu", "Electric", 25, 35, 25, ["Thunder", "Bite"])
-]
+# ----------- Load pokemon list from JSON -----------
+with open("pokemon_list.json") as f:
+    pokemon_list = [Pokemon(
+        entry["name"],
+        entry["type"],
+        entry["hp"],
+        entry["attack"],
+        entry["defense"],
+        entry["moves"]) for entry in json.load(f)]
 
 # Function to calculate damage
 def calculate_damage(attacker, defender):
