@@ -7,11 +7,11 @@
   {"name": "Jigglypuff", "type": "Fairy", "hp": 115, "attack": 45, "defense": 20, "moves": ["Sing", "Pound"]},
   {"name": "Meowth", "type": "Normal", "hp": 40, "attack": 45, "defense": 35, "moves": ["Scratch", "Bite"]},
   {"name": "Machop", "type": "Fighting", "hp": 70, "attack": 80, "defense": 50, "moves": ["Karate Chop", "Low Kick"]},
-  {"name": "Magnemite", "type": "Electric", "hp": 25, "attack": 35, "defense": 70, "moves": ["Thunder Shock", "Tackle"]},
+  {"name": "Magnemite", "type": "Electric", "hp": 31, "attack": 35, "defense": 70, "moves": ["Thunder Shock", "Tackle"]},
   {"name": "Gastly", "type": "Ghost", "hp": 30, "attack": 35, "defense": 30, "moves": ["Lick", "Night Shade"]},
   {"name": "Ponyta", "type": "Fire", "hp": 50, "attack": 85, "defense": 55, "moves": ["Ember", "Stomp"]},
   {"name": "Poliwag", "type": "Water", "hp": 40, "attack": 50, "defense": 40, "moves": ["Bubble", "Hypnosis"]},
-  {"name": "Abra", "type": "Psychic", "hp": 25, "attack": 20, "defense": 15, "moves": ["Psyko", "Confusion"]},
+  {"name": "Abra", "type": "Psychic", "hp": 25, "attack": 23, "defense": 15, "moves": ["Psyko", "Confusion"]},
   {"name": "Geodude", "type": "Rock", "hp": 40, "attack": 80, "defense": 100, "moves": ["Tackle", "Rock Throw"]},
-  {"name": "Pichu", "type": "Electric", "hp": 27, "attack": 35, "defense": 25, "moves": ["Thunder", "Bite"]}
+  {"name": "Pichu", "type": "Electric", "hp": 27, "attack": 27, "defense": 25, "moves": ["Thunder", "Bite"]}
 ]
