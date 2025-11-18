@@ -2,7 +2,7 @@
   {"name": "Charmander", "type": "Fire", "hp": 39, "attack": 52, "defense": 43, "moves": ["Ember", "Scratch"]},
   {"name": "Squirtle", "type": "Water", "hp": 44, "attack": 48, "defense": 65, "moves": ["Tackle", "Water Gun"]},
   {"name": "Bulbasaur", "type": "Grass", "hp": 45, "attack": 49, "defense": 49, "moves": ["Vine Whip", "Tackle"]},
-  {"name": "Pikachu", "type": "Electric", "hp": 35, "attack": 55, "defense": 40, "moves": ["Thunder Shock", "Quick Attack"]},
+  {"name": "Pikachu", "type": "Electric", "hp": 38, "attack": 55, "defense": 40, "moves": ["Thunder Shock", "Quick Attack"]},
   {"name": "Eevee", "type": "Normal", "hp": 55, "attack": 55, "defense": 50, "moves": ["Tackle", "Bite"]},
   {"name": "Jigglypuff", "type": "Fairy", "hp": 115, "attack": 45, "defense": 20, "moves": ["Sing", "Pound"]},
   {"name": "Meowth", "type": "Normal", "hp": 40, "attack": 45, "defense": 35, "moves": ["Scratch", "Bite"]},
