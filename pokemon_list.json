@@ -4,7 +4,7 @@
   {"name": "Bulbasaur", "type": "Grass", "hp": 45, "attack": 49, "defense": 49, "moves": ["Vine Whip", "Tackle"]},
   {"name": "Pikachu", "type": "Electric", "hp": 38, "attack": 55, "defense": 34, "moves": ["Thunder Shock", "Quick Attack"]},
   {"name": "Eevee", "type": "Normal", "hp": 55, "attack": 45, "defense": 41, "moves": ["Tackle", "Bite"]},
-  {"name": "Jigglypuff", "type": "Fairy", "hp": 115, "attack": 45, "defense": 20, "moves": ["Sing", "Pound"]},
+  {"name": "Jigglypuff", "type": "Fairy", "hp": 115, "attack": 45, "defense": 40, "moves": ["Sing", "Pound"]},
   {"name": "Meowth", "type": "Normal", "hp": 40, "attack": 45, "defense": 35, "moves": ["Scratch", "Bite"]},
   {"name": "Machop", "type": "Fighting", "hp": 70, "attack": 80, "defense": 50, "moves": ["Karate Chop", "Low Kick"]},
   {"name": "Magnemite", "type": "Electric", "hp": 31, "attack": 35, "defense": 70, "moves": ["Thunder Shock", "Tackle"]},
