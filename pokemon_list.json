@@ -12,6 +12,6 @@
   {"name": "Ponyta", "type": "Fire", "hp": 50, "attack": 85, "defense": 55, "moves": ["Ember", "Stomp"]},
   {"name": "Poliwag", "type": "Water", "hp": 40, "attack": 50, "defense": 40, "moves": ["Bubble", "Hypnosis"]},
   {"name": "Abra", "type": "Psychic", "hp": 25, "attack": 23, "defense": 15, "moves": ["Psyko", "Confusion"]},
-  {"name": "Geodude", "type": "Rock", "hp": 40, "attack": 60, "defense": 90, "moves": ["Tackle", "Rock Throw"]},
+  {"name": "Geodude", "type": "Rock", "hp": 40, "attack": 60, "defense": 89, "moves": ["Tackle", "Rock Throw"]},
   {"name": "Pichu", "type": "Electric", "hp": 27, "attack": 27, "defense": 25, "moves": ["Thunder", "Bite"]}
 ]
