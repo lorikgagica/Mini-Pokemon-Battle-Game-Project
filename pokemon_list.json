@@ -1,5 +1,5 @@
 :[
-  {"name": "Charmander", "type": "Fire", "hp": 39, "attack": 53, "defense": 43, "moves": ["Ember", "Scratch"]},
+  {"name": "Charmander", "type": "Fire", "hp": 38, "attack": 53, "defense": 43, "moves": ["Ember", "Scratch"]},
   {"name": "Squirtle", "type": "Water", "hp": 44, "attack": 49, "defense": 66, "moves": ["Tackle", "Water Gun"]},
   {"name": "Bulbasaur", "type": "Grass", "hp": 45, "attack": 51, "defense": 49, "moves": ["Vine Whip", "Tackle"]},
   {"name": "Pikachu", "type": "Electric", "hp": 38, "attack": 54, "defense": 34, "moves": ["Thunder Shock", "Quick Attack"]},
