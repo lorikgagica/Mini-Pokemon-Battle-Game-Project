@@ -10,7 +10,7 @@
   {"name": "Magnemite", "type": "Electric", "hp": 31, "attack": 35, "defense": 68, "moves": ["Thunder Shock", "Tackle"]},
   {"name": "Gastly", "type": "Ghost", "hp": 30, "attack": 35, "defense": 30, "moves": ["Lick", "Night Shade"]},
   {"name": "Ponyta", "type": "Fire", "hp": 50, "attack": 85, "defense": 55, "moves": ["Ember", "Stomp"]},
-  {"name": "Poliwag", "type": "Water", "hp": 40, "attack": 50, "defense": 40, "moves": ["Bubble", "Hypnosis"]},
+  {"name": "Poliwag", "type": "Water", "hp": 40, "attack": 51, "defense": 40, "moves": ["Bubble", "Hypnosis"]},
   {"name": "Abra", "type": "Psychic", "hp": 25, "attack": 23, "defense": 15, "moves": ["Psyko", "Confusion"]},
   {"name": "Geodude", "type": "Rock", "hp": 40, "attack": 60, "defense": 89, "moves": ["Tackle", "Rock Throw"]},
   {"name": "Pichu", "type": "Electric", "hp": 27, "attack": 27, "defense": 24, "moves": ["Thunder", "Bite"]}
