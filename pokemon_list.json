@@ -13,5 +13,6 @@
   {"name": "Poliwag", "type": "Water", "hp": 40, "attack": 51, "defense": 40, "moves": ["Bubble", "Hypnosis"]},
   {"name": "Abra", "type": "Psychic", "hp": 25, "attack": 23, "defense": 15, "moves": ["Psyko", "Confusion"]},
   {"name": "Geodude", "type": "Rock", "hp": 40, "attack": 60, "defense": 89, "moves": ["Tackle", "Rock Throw"]},
-  {"name": "Pichu", "type": "Electric", "hp": 27, "attack": 27, "defense": 25, "moves": ["Thunder", "Bite"]}
+  {"name": "Pichu", "type": "Electric", "hp": 27, "attack": 27, "defense": 25, "moves": ["Thunder", "Bite"]},
+  {"name": "Raichu", "type": "Electric", "hp": 56, "attack": 47, "defense": 45, "moves": ["Thunder", "Thunder Shock"]}
 ]
